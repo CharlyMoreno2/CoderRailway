@@ -1,5 +1,4 @@
 const { Router } = require('express')
-const { auth } = require('firebase-admin')
 const passport = require('passport')
 const { users } = require('../usuarios/user')
 const { authMiddleware } = require('../middlewares/auth.middleware')
