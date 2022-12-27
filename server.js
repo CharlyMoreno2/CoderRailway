@@ -6,7 +6,7 @@ require('dotenv').config()
 
 const handlebars = require('express-handlebars')
 const PORT = process.env.PORT || 8080
-const { authRouter } = require('./Routes/auth.routes.js')
+const { authRouter } = require('./routes/auth.routes.js')
 const { authMiddleware } = require('./middlewares/auth.middleware')
 //_____________________________________________ mongo para session _____________________________________ //
 const MongoStore = require('connect-mongo')
